@@ -3,7 +3,6 @@ import sqlite3
 
 # Downloading the veder lexicon
 nltk.download("vader_lexicon")
-nltk.download("stopwords")
 
 class NLTK_Analyzer:
     def __init__(self, data):

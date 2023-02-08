@@ -1,6 +1,5 @@
 import newsapi
 import sentiment_analyzer
-import NLTK_Analyzer
 
 if __name__ == "__main__":
 
@@ -13,8 +12,8 @@ if __name__ == "__main__":
     analyzer = sentiment_analyzer.IndianMarketSentimentAnalyzer(df)
     analyzer.add_data()
 
-    # Analyze Market Sentiment using NLTK Sentiment Analyzer
-    analyzer = NLTK_Analyzer.NLTK_Analyzer(df)
-    analyzer.Add_data()
+    # # Analyze Market Sentiment using NLTK Sentiment Analyzer
+    # Analyzer = NLTK_Analyzer.NLTK_Analyzer(df)
+    # Analyzer.Add_data()
 
 
