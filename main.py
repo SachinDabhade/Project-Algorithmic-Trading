@@ -11,9 +11,3 @@ if __name__ == "__main__":
     # Analyze Market Sentiment using IndianMarketSentimentAnalyzer
     analyzer = sentiment_analyzer.IndianMarketSentimentAnalyzer(df)
     analyzer.add_data()
-
-    # # Analyze Market Sentiment using NLTK Sentiment Analyzer
-    # Analyzer = NLTK_Analyzer.NLTK_Analyzer(df)
-    # Analyzer.Add_data()
-
-
